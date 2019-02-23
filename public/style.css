@@ -1,0 +1,109 @@
+html {
+   font-size: 62.5%;  
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  padding: 10px;
+}
+
+h3 {
+  margin: 1rem 1rem 1rem 0;
+}
+.replies {
+  margin-left: 50px;
+  padding: 1.5rem;
+  margin: 0 auto;
+  background-color: #444;
+}
+.reply-content {
+   padding: 1rem 2rem 1rem 2rem;
+   background-color: #ccffff;
+   color: #444;
+}
+
+.reply {
+  border: 1px dotted black;
+  margin: 5px;
+  padding: 1rem;
+  background-color: darkcyan;
+}
+
+.newReply {
+  margin: 10px 5px 10px 5px;
+}
+
+.thread {
+  font-size: 1.8rem; 
+  border: 2px solid black;
+  padding: 2rem;
+  margin-bottom: 5px;
+  background-color: #333;
+  color: aliceblue;
+}
+
+a {
+  color: darkcyan;
+}
+
+.id {
+  font-size: 1.2rem;
+}
+
+.threadForm, .replyForm {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   padding: 0.5rem 0 1rem 0;
+}
+
+#reportThread {
+   max-width: 7rem;
+}
+
+#deleteThread {
+   width: 30rem;
+   padding: 0;
+}
+
+#deleteThread input[type="text"] {
+   width: 70%;   
+}
+
+#deleteThread input[type="submit"] {
+   width: 30%;   
+}
+
+#newThread {
+   margin: 0 auto;
+}
+
+#newThread {
+   max-width: 100%;
+}
+
+textarea {
+   width: 100%;
+}
+
+#userstories {
+   font-size: 1.4rem;
+}
+
+#submitNewThread {
+  margin: 50px;
+}
+
+#testui {
+   font-size: 1.4rem;
+}
