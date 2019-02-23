@@ -1,6 +1,7 @@
 **FreeCodeCamp**- Information Security and Quality Assurance
 ------
-
+example project https://diego-anonymous-msb.glitch.me
+fcc backend tester https://pricey-hugger.glitch.me/
 Project Anon Message Board
 
 1) SET NODE_ENV to `test` without quotes when ready to write tests and DB to your databases connection string (in .env)
